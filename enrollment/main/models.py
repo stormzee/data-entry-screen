@@ -158,7 +158,7 @@ class Hospitalization(models.Model):
     rfrm = models.IntegerField(db_column='RFRM', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
-        managed = False
+        # managed = False
         db_table = 'hospitalization'
 
 
@@ -181,5 +181,5 @@ class Visit2(models.Model):
     precon = models.IntegerField(db_column='PRECON', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
-        managed = False
+        # managed = False
         db_table = 'visit2'

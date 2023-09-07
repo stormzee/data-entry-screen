@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'enrollment.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'test2',
-        'USER': 'dm',
-        'PASSWORD': '123456789',
-        'HOST': 'DESKTOP-0IS5FEC' ,
+        'NAME': 'dm',
+        'USER': 'sa',
+        'PASSWORD': '0123456789',
+        'HOST': 'localhost' ,
         'PORT':'1433',  
         'OPTIONS': {
             'driver': 'SQL Server Native Client 11.0'
